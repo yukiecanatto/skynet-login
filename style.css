@@ -1,0 +1,42 @@
+/* Login */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: initial;
+    font-weight: initial;
+    text-align: initial;
+    
+}
+
+body {
+    height: 100svh;
+    width: 90%;
+    margin: auto;
+    background-color: #474747;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+.contido {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: #FDC901;
+    border-radius: 10px;
+}
+
+.alinhamento-label {
+
+    display: flex;
+    
+    /* align-items: center;
+    justify-content: center; */
+
+}
