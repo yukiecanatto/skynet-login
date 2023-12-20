@@ -1,0 +1,81 @@
+/* Navbar */
+
+* {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;    
+    }
+    
+    .conteiner {
+        display: flex;
+        height: 10vh;
+        background-color: #FDC901;
+        align-items: center;
+        justify-content: space-around;
+        width: 100svw;
+    }
+    
+    .barra_pesquisa {
+        background-color: #D9D9D9;
+        border: none;
+        border-radius: 20px;
+        width: 500px;
+        height: 50px;
+        padding: 5px;
+        outline: 0;
+    }
+    
+    .logo_skynet {
+        height: 50px;
+    }
+    
+    .icon_bag, .icon_user {
+        height: 30px;   
+    }
+
+    
+    .icones_header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
+
+
+    /* ########################################### Resolvido ######################## */
+    #navbar {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100svw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #navbar ul li {
+        display: inline;
+    }
+    
+    #navbar ul li a {
+        color: #434138;
+        font: 1.2em sans-serif;
+        font-weight: bold;
+        padding: 30px;
+        display: inline-block;
+    }
+    
+    #navbar ul li a:link, a:visited, a:active {
+        text-decoration: none;
+    }
+    
+    #navbar ul li a:hover {
+        text-decoration: none;
+        color: #eb8901;
+    }
